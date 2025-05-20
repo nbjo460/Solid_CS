@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    internal class FileLogger : ILogger
+    internal class File
     {
-        public void CreateLog(string destination, string message)
-        {
-
-        }
     }
 }
