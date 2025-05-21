@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    internal interface ILogger
+    internal interface ISender
     {
-        void CreateLog(string destination, string message);
-        string ReadLog(string destination);
+        void Send(string destination);
+        bool Validation(string email);
     }
 }

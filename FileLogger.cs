@@ -12,5 +12,9 @@ namespace Solid_Principle
         {
 
         }
+        public string ReadLog(string destination)
+        {
+            return "";
+        }
     }
 }

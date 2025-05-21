@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    internal interface ISmsAlert
+    internal interface ISmsAlert : ISender
     {
+        string FromSms { get; set; }
+        void ConfigureSms(string destination);
     }
 }
